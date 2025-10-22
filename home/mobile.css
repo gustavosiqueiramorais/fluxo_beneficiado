@@ -94,12 +94,12 @@ header > h1{
 .botaolateral{
     display: flex;
     flex-direction: row;
-    gap: 100px;
+    gap: 85px;
     align-items: center;
     width: 400px;
     margin: 0 auto;
     margin-top: 50px;
-    margin-left: 15px;
+    margin-left: 12px;
 
 }
 
