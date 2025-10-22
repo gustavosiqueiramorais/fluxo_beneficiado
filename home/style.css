@@ -1,0 +1,159 @@
+/* ========================================================== */
+/* MEDIA QUERY: Desktop e Telas Maiores (a partir de 768px) */
+/* ========================================================== */
+@media screen and (min-width: 768px) {
+    
+    /* 1. LAYOUT PRINCIPAL (HEADER e NAVEGAÇÃO) */
+    header {
+        /* Remove o espaçamento flex de mobile */
+        justify-content: flex-start;
+        /* Redefine o espaçamento padrão para desktop */
+        gap: 30px; 
+        height: 92px;
+    }
+
+    header > img{
+        width: 48px;
+        height: 48px;
+    }
+
+    /* Mostra o Título do Cabeçalho novamente */
+    header > h1 {
+        display: block; 
+        margin-top: 10px;
+        font-size: 32px;
+    }
+
+    /* Esconde o botão de hambúrguer, pois a navegação completa será exibida */
+    header > #menu {
+        display: none;
+    }
+
+    /* * Mostra a navegação COMPLETA no cabeçalho (ela não será mais lateral) 
+    * A nav original já está oculta no mobile
+    */
+    header > nav {
+        display: flex; /* Transforma a nav em flex para alinhar os links horizontalmente */
+        position: static; /* Remove o fixed da sidebar */
+        width: auto; /* Remove a largura fixa de 250px */
+        height: auto;
+        padding-top: 0;
+        background-color: transparent; /* Remove a cor de fundo da sidebar */
+        z-index: auto;
+        /* Alinha a navegação à direita, empurrando-a para o final */
+        margin-left: auto; 
+        gap: 30px;
+    }
+
+    header > nav > a {
+        padding: 0; /* Remove o padding grande da sidebar */
+        color: #37343C; /* Volta à cor de texto padrão de desktop */
+        border-bottom: none;
+        margin-top: 15px;
+        font-size: 24px;
+        gap: 8px;
+    }
+
+    nav > a:hover{
+        text-decoration: underline;
+        text-decoration-color: #E9A750;
+    }
+
+    .titulo{
+        font-size: 94px;
+    }
+    
+    /* 2. LAYOUT DO CONTEÚDO PRINCIPAL (Exibição das Imagens) */
+    
+    .conteudo{
+        display: flex;
+        flex-direction: row;
+        gap: 200px;
+        height: 240px;
+        align-items: center;
+        margin-left: 120px;
+        width: 1064px;
+    }
+
+    p{
+        font-size: 28px;
+        text-align: justify;
+        width: 455px;
+       
+    }
+
+
+    .botaolateral{
+        width: 431px;
+        
+    }
+
+    .doar{
+        width: 183px;
+        font-size: 28px;
+        padding: 15px;
+        height: 59px;
+        border-radius: 16px;
+    }
+
+    .ajuda{
+        width: 183px;
+        font-size: 28px;
+        padding: 15px;
+        height: 59px;
+        border-radius: 16px;
+
+    }
+
+
+    
+    /* Centraliza os botões (se for necessário alinhar o .mais) */
+    .mais {
+        margin-left: 120px;
+        width: 164px;
+        height: 59px;
+        border-radius: 16px;
+        font-size: 28px;
+        margin-top: 35px;
+    }
+    
+    /* Mostra as imagens que estavam com 'display: none' */
+    .imagens {
+        display: flex; /* Exibe as imagens lado a lado */
+        justify-content: center;
+        gap: 20px;
+        max-width: 1200px; /* Limita a largura total */
+        margin: 40px auto;
+    }
+
+    .imagens > img {
+        /* Ajusta a largura de cada imagem para que caibam 3 em uma linha */
+        width: 300px;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    /* 3. RODAPÉ (FOOTER) */
+    footer {
+        gap: 120px;
+        height: 56px;
+    }
+
+    footer > a{
+        gap: 10px;
+    }
+
+    footer > a > img{
+        width: 32px;
+    }
+
+    footer > a > p{
+        font-size: 26px;
+
+    }
+    
+    #iniciativa {
+        margin-left: auto; /* Empurra a iniciativa para o canto direito */
+    }
+
+}
