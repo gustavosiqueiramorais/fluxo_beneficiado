@@ -68,17 +68,17 @@
     .conteudo{
         display: flex;
         flex-direction: row;
-        gap: 200px;
+        gap: 250px;
         height: 240px;
         align-items: center;
         margin-left: 120px;
         width: 1064px;
     }
 
-    p{
-        font-size: 28px;
+    .paragrafo > p{
+        font-size: 32px;
         text-align: justify;
-        width: 455px;
+        width: 555px;
        
     }
 
@@ -105,11 +105,18 @@
 
     }
 
+    .botao{
+        display: flex;
+        flex-direction: column;
 
+    }
+
+    .botao2{
+        width: 430px;
+        text-align: center;
+    }
     
-    /* Centraliza os botões (se for necessário alinhar o .mais) */
     .mais {
-        margin-left: 120px;
         width: 164px;
         height: 59px;
         border-radius: 16px;
@@ -154,6 +161,7 @@
     
     #iniciativa {
         margin-left: auto; /* Empurra a iniciativa para o canto direito */
+        font-size: 26px;
     }
 
 }
