@@ -126,23 +126,15 @@
         height: auto;
     }
     
-    footer {
-        gap: 120px;
-        height: 56px;
-    }
-
-    footer > a{
-        gap: 10px;
-    }
-
-    footer > a > img{
-        width: 32px;
+   footer{
+        margin-top: 90px;
+        height: 52px;
     }
 
     footer > a > p{
         font-size: 26px;
-
     }
+    
     
     #iniciativa {
         margin-left: auto; 

@@ -1,0 +1,137 @@
+@media screen and (min-width: 768px){
+    header {
+        justify-content: flex-start;
+        gap: 30px; 
+        height: 92px;
+    }
+
+    header > img{
+        width: 48px;
+        height: 48px;
+    }
+
+    header > h1 {
+        display: block; 
+        margin-top: 10px;
+        font-size: 32px;
+    }
+
+    header > #menu {
+        display: none;
+    }
+
+    header > nav {
+        display: flex; 
+        position: static; 
+        width: auto; 
+        height: auto;
+        padding-top: 0;
+        background-color: transparent; 
+        margin-left: auto; 
+        gap: 30px;
+    }
+
+    header > nav > a {
+        padding: 0; 
+        color: #37343C; 
+        border-bottom: none;
+        margin-top: 15px;
+        font-size: 24px;
+        gap: 8px;
+    }
+
+    nav > a:hover{
+        text-decoration: underline;
+        text-decoration-color: #E9A750;
+    }
+
+    .conteudo{
+        display: flex;
+        flex-direction: row;
+        gap: 52px;
+    }
+
+    .guia{
+        margin-left: 60px;
+    }
+
+    .guia > h1{
+        font-size: 63px;
+    }
+
+    .guia > h2{
+        font-size: 32px;
+    }
+
+    .guia > p{
+        font-size: 28px;
+        text-align: justify;
+        width: 491px;
+    }
+
+    .caminho{
+        display: flex;
+        flex-direction: row;
+        gap: 120px;
+    }
+
+    .caminho > h3{
+        font-size: 32px;
+    }
+
+    .formulario{
+        width: 933px;
+        margin-top: 170px;
+    }
+
+    .opcao{
+        height: 48px;
+        margin-bottom: 25px;
+    }
+
+    .opcao > label{
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .botoes{
+        display: flex;
+        flex-direction: row;
+        width: 933px;
+        gap: 200px;
+    }
+
+    #botaoCancelar{
+        width: 355px;
+        height: 60px;
+        border-radius: 16px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    #botaoContinuar{
+        width: 355px;
+        height: 60px;
+        border-radius: 16px;
+        font-size: 20px;
+        gap: 10px;
+        cursor: pointer;
+
+    }
+    
+    footer{
+        margin-top: 90px;
+        height: 52px;
+    }
+
+    footer > a > p{
+        font-size: 26px;
+    }
+    
+    #iniciativa {
+        margin-left: auto; 
+        font-size: 26px;
+    }
+
+}
+
