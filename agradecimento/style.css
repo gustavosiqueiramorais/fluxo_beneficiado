@@ -110,13 +110,24 @@
         font-size: 15px;
     }
 
+    .agradecimento > h3{
+        font-size: 32px;
+        margin-top: 20vh;
+    }
+
+    .agradecimento > p{
+        font-size: 32px;
+    }
+
     .botoes{
         gap: 18%;
         margin-top: 10%;
     }
 
-    .botoes > #voltarinicio{
-        width: 30px;
+    #voltarinicio{
+        width: 40vw;
+        height: 6vh;
+        font-size: 20px;
     }
     
     footer{
