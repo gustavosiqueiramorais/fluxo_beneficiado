@@ -132,6 +132,14 @@ form > h3{
     margin-top: 15px;
 }
 
+
+#contato{
+    margin-bottom: 5%;
+
+}
+
+
+
 .campo{
     display: flex;
     flex-direction: column;
