@@ -81,7 +81,7 @@
 
     form{
         align-items: flex-start;
-        width: 933px;
+        width: 900px;
     }
 
     .contatoinstituicao{
@@ -128,7 +128,7 @@
     .endereco{
         display: flex;
         flex-direction: row;
-        width: 933px;
+        width: 900px;
         gap: 5%;
         margin-bottom: 10px;
     }
@@ -165,11 +165,11 @@
     }
 
     .botoes{
-        gap: 225px;
+        gap: 19vw;
     }
 
     #botaoCancelar{
-        width: 355px;
+        width: 300px;
         height: 60px;
         border-radius: 16px;
         font-size: 20px;
@@ -177,7 +177,7 @@
     }
 
     #botaoContinuar{
-        width: 355px;
+        width: 300px;
         height: 60px;
         border-radius: 16px;
         font-size: 20px;

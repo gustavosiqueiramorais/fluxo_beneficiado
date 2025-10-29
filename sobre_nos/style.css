@@ -1,4 +1,5 @@
 @media screen and (min-width: 768px){
+    
     header {
         justify-content: flex-start;
         gap: 30px; 
@@ -27,6 +28,7 @@
         height: auto;
         padding-top: 0;
         background-color: transparent; 
+        z-index: auto;
         margin-left: auto; 
         gap: 30px;
     }
@@ -45,81 +47,49 @@
         text-decoration-color: #E9A750;
     }
 
+    main > h1{
+        font-size: 94px;
+    }
+
+    main > p{
+        font-size: 28px;
+        text-align: justify;
+        padding: 2vw;
+        margin-bottom: 1vh;
+    }
     .conteudo{
         display: flex;
         flex-direction: row;
-        gap: 52px;
+        gap: 250px;
+        height: 240px;
+        align-items: center;
+        margin-left: 120px;
+        width: 1064px;
     }
 
-    .guia{
-        margin-left: 60px;
+
+
+    .botaolateral{
+        width: 431px;
+        
     }
 
-    .guia > h1{
-        font-size: 63px;
+    
+    .imagens {
+        display: flex; 
+        justify-content: center;
+        gap: 20px;
+        max-width: 1200px;
+        margin: 40px auto;
     }
 
-    .guia > h2{
-        font-size: 32px;
-    }
-
-    .guia > p{
-        font-size: 28px;
-        text-align: justify;
-        width: 491px;
-    }
-
-    .caminho{
-        display: flex;
-        flex-direction: row;
-        gap: 120px;
-    }
-
-    .caminho > h3{
-        font-size: 32px;
-    }
-
-    .formulario{
-        width: 900px;
-        margin-top: 170px;
-    }
-
-    .opcao{
-        height: 48px;
-        margin-bottom: 25px;
-    }
-
-    .opcao > label{
-        font-size: 30px;
-        font-weight: 700;
-    }
-
-    .botoes{
-        display: flex;
-        flex-direction: row;
-        width: 900px;
-        gap: 200px;
-    }
-
-    #botaoCancelar{
-        width: 355px;
-        height: 60px;
-        border-radius: 16px;
-        font-size: 20px;
-        cursor: pointer;
-    }
-
-    #botaoContinuar{
-        width: 355px;
-        height: 60px;
-        border-radius: 16px;
-        font-size: 20px;
-        gap: 10px;
-        cursor: pointer;
-
+    .imagens > img {
+        width: 300px;
+        max-width: 100%;
+        height: auto;
     }
     
-    footer{
+   footer{
         margin-top: 90px;
         height: 52px;
     }
@@ -128,10 +98,9 @@
         font-size: 26px;
     }
     
+    
     #iniciativa {
         margin-left: auto; 
         font-size: 26px;
     }
-
 }
-
